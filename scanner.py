@@ -167,7 +167,7 @@ class scann_icmp(scanner):
             else:
                 self.list_of_hosts_off.append(host)
         elif sys.platform == 'win32':
-            response = subprocess.call("ping -n 1 " + host)
+            response = subprocess.call("ping -n 1 " + host, shell=True,stdout=subprocess.PIPE)
             if response == 0:
                 self.list_of_hosts_on.append(host)
             else:
