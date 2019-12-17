@@ -25,7 +25,7 @@ class import_file:
             CSV = CSV_reader(self.file)
             DF = CSV.parse()
             return DF
-        elif format_file == 'application/vnd.ms-excel':
+        elif format_file == 'application/vnd.ms-excel' or format_file == 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet':
             XLS = XLS_reader(self.file)
             DF = XLS.parse()
             return DF
@@ -89,4 +89,3 @@ class XLS_reader (import_file):
             return DF
         except Exception as E:
             raise Exception('Bad, format error:', E)      
-        
