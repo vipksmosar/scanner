@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 __author__ = "vipksmosar"
 __credits__ = ["vipksmosar"]
-__version__ = "0.0.1"
+__version__ = "1.0.1"
 __email__ = "admin@npfx.ru"
 __status__ = "Sigma-test"
 
