@@ -1,7 +1,6 @@
 from chardet.universaldetector import UniversalDetector
 import csv
 import os
-
 import pandas as pd
 import magic
 import xlrd
