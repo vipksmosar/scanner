@@ -12,6 +12,7 @@ python3 portscanner.py --filein 'file_example_in.xlsx' --fileout 'file_example_o
 
 Windows:
 
+
 python.exe scanner.py --filein 'file_example_in.xlsx' --ports 22 139 445 5060 --OneHost 1
 
 or if many hosts - without parametr OneHost:
