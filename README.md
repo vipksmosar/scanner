@@ -3,7 +3,6 @@
 To start port scanner.
 
 Linux:
-
 python3 scanner.py --filein 'file_example_in.xlsx'  --ports 22 139 445 5060 --OneHost 1
 
 or if many hosts - without parametr OneHost:
