@@ -29,6 +29,8 @@ Windows:
 python.exe scanner.py --filein 'file_example_in.xlsx'  --Ping True
 
 
+
+
 For more parametrs use --help
 --filein 'C:/CSV/srv_vm2.xlsx'
 --ports 20 21 22 139 445 80 44
